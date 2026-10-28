@@ -27,7 +27,11 @@ internal sealed class SimpleLauncher : Form
         Application.SetCompatibleTextRenderingDefault(false);
         if (args.Length == 1 && args[0] == "--self-check")
         {
-            try { LaunchBackend.SelfCheck(); RegistrationDialog.SelfCheck(); return 0; }
+            try {
+                // Diagnostic only: "off" without Locale Remulator, otherwise "<profile> via <LRProc.exe>".
+                Console.WriteLine("locale: " + LocaleBridge.Describe());
+                LaunchBackend.SelfCheck(); RegistrationDialog.SelfCheck(); return 0;
+            }
             catch (Exception e) { Console.Error.WriteLine(e.Message); return 1; }
         }
         if (args.Length == 1 && args[0] == "--check-server")

@@ -13,8 +13,10 @@ using System.Web.Script.Serialization;
 
 internal static class LaunchBackend
 {
-    const string GameHash = "DEF89CF3C51B5D196B90776D64A68898D722C26F8CE14F97F8C3930E9C4CFC27";
-    const string StarterHash = "86C94F34B9CB286AE8D68E6181CE76523B8CCF11AE311C52A5ED53AFB135F6DA";
+    // 2026-10-28: the client hash gate was removed on purpose - the local client is 282.6, not the pinned
+    // 282.5 build, so the launcher no longer compares MapleStory.exe against a fixed SHA-256. The starter
+    // helper is still verified (StarterHash, rewritten by build.ps1 after every helper build).
+    const string StarterHash = "AFA0FC410BBCB51FFBCCD17FDE5311EDC7CA41C6B27F6B02F6A18EA3E4479D57";
     const string LocalHost = "127.0.0.1";
     // 2026-10-08: the game connects to the loopback alias, relayed to the server on 127.0.0.1 (LoopbackBridge)
     const string GameHost = LoopbackBridge.AliasHost;
@@ -54,10 +56,7 @@ internal static class LaunchBackend
         if (Process.GetProcessesByName("MapleStory").Length != 0) throw Error("遊戲已在執行，請先關閉遊戲。");
         byte[] starter;
         try {
-            starter = await Task.Run(() => {
-                if (HashFile(gamePath) != GameHash) throw Error("這個遊戲主程式不是 TMS 282.5，請重新選擇。");
-                return VerifiedFile("TmsLocalStarter.exe", StarterHash);
-            }).ConfigureAwait(false);
+            starter = await Task.Run(() => VerifiedFile("TmsLocalStarter.exe", StarterHash)).ConfigureAwait(false);
         } catch (InvalidOperationException) { throw; }
         catch { throw Error("無法讀取遊戲或啟動元件，請確認檔案完整。"); }
         await PingServerAsync().ConfigureAwait(false);
@@ -131,6 +130,7 @@ internal static class LaunchBackend
             if (Text(result, "code") == "gameRunning") throw Error("遊戲已在執行，請先關閉遊戲。");
             if (Text(result, "code") == "localEndpointRequired") throw Error("本機相容連線尚未就緒，請重新開啟登入器。");
             if (Text(result, "code") == "elevationRequired") throw Error("遊戲需要系統管理員權限，請以系統管理員身分重新開啟登入器。");
+            if (Text(result, "code") == "localeFailed") throw Error("透過 Locale Remulator 啟動遊戲失敗：請確認 LRProc.exe 與 LRConfig.xml 完整，或先用右鍵選單測試 Locale Remulator 本身是否正常。");
             throw Error("遊戲啟動失敗，請確認遊戲資料夾完整。");
         }
         object raw;
@@ -190,7 +190,6 @@ internal static class LaunchBackend
         catch { throw Error("連不到本機伺服器，請先開啟 server 的 launch.bat。"); }
     }
 
-    static string HashFile(string file) { using (var s = File.OpenRead(file)) using (var hash = SHA256.Create()) return BitConverter.ToString(hash.ComputeHash(s)).Replace("-", ""); }
     static byte[] VerifiedFile(string name, string expected)
     {
         var bytes = File.ReadAllBytes(Path.Combine(Folder, name));
@@ -210,9 +209,13 @@ internal static class LaunchBackend
             var info = new ProcessStartInfo(exe) { UseShellExecute = false, CreateNoWindow = true, WindowStyle = ProcessWindowStyle.Hidden,
                 RedirectStandardInput = true, RedirectStandardOutput = true, RedirectStandardError = true,
                 StandardOutputEncoding = new UTF8Encoding(false), StandardErrorEncoding = new UTF8Encoding(false), WorkingDirectory = stage };
+            // 2026-10-28: hand the resolved Locale Remulator profile to the helper; it starts the game through
+            // LRProc.exe so the client sees a Taiwan code page. Without LR the helper starts the game directly.
+            LocaleBridge.Apply(info);
             using (var p = Process.Start(info)) {
                 var reply = ReadReplyAsync(p, input);
-                try { return await WithTimeout(reply, 15000).ConfigureAwait(false); }
+                // 30 s: with Locale Remulator the helper also waits for the injected client to appear.
+                try { return await WithTimeout(reply, 30000).ConfigureAwait(false); }
                 catch { if (!p.HasExited) p.Kill(); throw; }
             }
         } catch (InvalidOperationException) { throw; }

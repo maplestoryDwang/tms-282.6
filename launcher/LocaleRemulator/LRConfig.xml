@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Locale Remulator profile used by SimpleLauncher (see LocaleBridge.cs).
+     "Run in Taiwan (Admin)" makes the game process see zh-TW / code page 950 / LCID 1028 / Taipei time,
+     so the client does not refuse to log in on a Simplified Chinese system. -->
+<LRConfig>
+  <Profiles Type="exe">
+    <Profile Name="Run in Taiwan (Admin)" Guid="bd394cf4-037f-480f-a960-530852f8b6e3">
+      <Location>zh-TW</Location>
+      <CodePage>950</CodePage>
+      <LCID>1028</LCID>
+      <TimeZone>Taipei Standard Time</TimeZone>
+      <Bias>480</Bias>
+      <RunAsAdmin>true</RunAsAdmin>
+      <HookIME>true</HookIME>
+      <HookLCID>true</HookLCID>
+    </Profile>
+  </Profiles>
+</LRConfig>
