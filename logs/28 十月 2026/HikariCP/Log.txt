@@ -26,3 +26,1367 @@
 ---------------------------------
 [28 10 2026 14:00:40] UPDATE characters SET party = 0
 ---------------------------------
+[28 10 2026 18:10:16] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 18:10:16] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 19:58:02] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 19:58:02] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 20:03:04] [HikariCP Database] Saving Character: 你好旅行者
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `extendsp` (`id`) VALUES (DEFAULT);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 1, '5' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 2, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 3, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 4, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 5, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 6, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `spset` (`extendsp_id`, `joblevel`, `sp` ) VALUES (1, 7, '0' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `noncombatstatdaylimit` (`charisma`, `charm`, `insight`, `will`, `craft`, `sense`, `lastupdatecharmbycashpr`, `charmbycashpr` ) VALUES (0, 0, 0, 0, 0, 0, '1970-01-01 00:00:01.0', 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `systemtimes` (`yr`, `mnth` ) VALUES (2026, 10 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `characterstats` (`characterid`, `characteridforlog`, `worldidforlog`, `name`, `gender`, `skin`, `face`, `hair`, `mixbasehaircolor`, `mixaddhaircolor`, `mixhairbaseprob`, `level`, `job`, `str`, `dex`, `inte`, `luk`, `hp`, `maxhp`, `mp`, `maxmp`, `ap`, `sp`, `exp`, `pop`, `money`, `wp`, `extendsp`, `posmap`, `portal`, `subjob`, `deffaceacc`, `fatigue`, `lastfatigueupdatetime`, `charismaexp`, `insightexp`, `willexp`, `craftexp`, `senseexp`, `charmexp`, `noncombatstatdaylimit`, `mcpoint`, `pvpexp`, `pvpgrade`, `pvppoint`, `pvpmodelevel`, `pvpmodetype`, `eventpoint`, `albaactivityid`, `albastarttime`, `albaduration`, `albaspecialreward`, `charactercard`, `accountlastlogout`, `lastlogout`, `gachexp`, `honorexp`, `nextavailablefametime`, `node_shards`, `maxfriends`, `combatpower`, `chuc`, `arc`, `aut` ) VALUES (0, 0, 0, '你好旅行者', 1, 12, 58247, 67620, -1, 0, 0, 10, 16100, 45, 4, 4, 4, 1000, 1000, 500, 500, 0, 0, 0, 0, 100000, 0, 1, 100000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, '1601-01-01 08:00:00.0', 0, 0, NULL, 1, '1601-01-01 08:00:00.0', 0, 0, '2026-10-28 20:03:03.542', 0, 50, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `avatarlook` (`gender`, `skin`, `face`, `hair`, `weaponstickerid`, `weaponid`, `subweaponid`, `job`, `drawelfear`, `demonslayerdeffaceacc`, `xenondeffaceacc`, `beasttamerdeffaceacc`, `iszerobetalook`, `mixedhaircolor`, `mixhairpercent`, `ears`, `tail` ) VALUES (1, 12, 58247, 67620, 0, 1215000, 0, 16002, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hairequips` (`alid`, `equipid`) VALUES (1, 1001177);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hairequips` (`alid`, `equipid`) VALUES (1, 1051903);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hairequips` (`alid`, `equipid`) VALUES (1, 1071210);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hairequips` (`alid`, `equipid`) VALUES (1, 1215000);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `petids` (`alid`, `petid`) VALUES (1, 0);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `petids` (`alid`, `petid`) VALUES (1, 0);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `petids` (`alid`, `petid`) VALUES (1, 0);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `avatardata` (`characterstat`, `avatarlook`, `zeroavatarlook` ) VALUES (1, 1, NULL);
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (-1, 128 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (1, 48 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (2, 48 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (4, 48 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (3, 48 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (5, 128 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `inventories` (`type`, `slots` ) VALUES (6, 256 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `funckeymap` (`charid`, `ord` ) VALUES (0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `funckeymap` (`charid`, `ord` ) VALUES (0, 1 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `funckeymap` (`charid`, `ord` ) VALUES (0, 2 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `monsterbookinfos` (`setid`, `coverid` ) VALUES (-1, -1 );
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 1, sp = 5 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 2, sp = 0 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE noncombatstatdaylimit SET charisma = 0, charm = 0, insight = 0, will = 0, craft = 0, sense = 0, lastupdatecharmbycashpr = '1970-01-01 00:00:01.0', charmbycashpr = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE systemtimes SET yr = 2026, mnth = 10 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE characterstats SET characterid = 1, worldidforlog = 0, name = '你好旅行者', gender = 1, skin = 12, face = 58247, hair = 67620, mixbasehaircolor = -1, mixaddhaircolor = 0, mixhairbaseprob = 0, level = 10, job = 16100, str = 45, dex = 4, inte = 4, luk = 4, hp = 1000, maxhp = 1000, mp = 500, maxmp = 500, ap = 0, sp = 0, exp = 0, pop = 0, money = 100000, wp = 0, posmap = 100000000, portal = 0, subjob = 0, deffaceacc = 0, fatigue = 0, lastfatigueupdatetime = 0, charismaexp = 0, insightexp = 0, willexp = 0, craftexp = 0, senseexp = 0, charmexp = 0, mcpoint = 0, eventpoint = 0, lastlogout = '1601-01-01 08:00:00.0', gachexp = 0, honorexp = 0, nextavailablefametime = '2026-10-28 20:03:03.542', node_shards = 0, maxfriends = 50, combatpower = 0, chuc = 0, arc = 0, aut = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] UPDATE avatarlook SET gender = 1, skin = 12, face = 58247, hair = 67620, weaponstickerid = 0, weaponid = 1215000, subweaponid = 0, job = 16002, drawelfear = 0, demonslayerdeffaceacc = 0, xenondeffaceacc = 0, beasttamerdeffaceacc = 0, iszerobetalook = 0, mixedhaircolor = 0, mixhairpercent = 0, ears = 0, tail = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `eventnametag` (`charid`, `activeRed`, `activeBlue`, `activeYellow`, `activeGreen`, `activePurple`, `sRed`, `sBlue`, `sYellow`, `sGreen`, `sPurple` ) VALUES (1, -1, -1, -1, -1, -1, '0000000000', '0000000000', '0000000000', '0000000000', '0000000000' );
+---------------------------------
+[28 10 2026 20:03:04] UPDATE funckeymap SET charid = 1, ord = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 1, 4, 46 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 2, 4, 10 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 3, 4, 12 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 4, 4, 13 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 5, 4, 18 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 6, 4, 23 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 16, 4, 8 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 17, 4, 5 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 18, 4, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 19, 4, 4 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 23, 4, 1 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 24, 4, 216 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 25, 4, 19 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 27, 4, 15 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 29, 5, 52 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 31, 4, 2 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 34, 4, 17 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 35, 4, 11 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 37, 4, 3 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 38, 4, 20 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 39, 4, 26 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 40, 4, 16 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 44, 5, 50 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 45, 5, 51 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 47, 4, 31 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 48, 4, 29 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 50, 4, 7 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 51, 4, 45 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 56, 5, 53 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 57, 5, 54 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 59, 4, 39 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 60, 4, 214 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 62, 4, 27 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 63, 4, 22 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 64, 4, 25 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 65, 4, 49 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 66, 4, 42 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 67, 4, 35 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 70, 4, 47 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 87, 4, 9 );
+---------------------------------
+[28 10 2026 20:03:04] UPDATE funckeymap SET charid = 1, ord = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 1, 4, 46 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 2, 4, 10 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 3, 4, 12 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 4, 4, 13 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 5, 4, 18 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 6, 4, 23 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 16, 4, 8 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 17, 4, 5 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 18, 4, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 19, 4, 4 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 23, 4, 1 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 24, 4, 216 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 25, 4, 19 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 27, 4, 15 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 29, 5, 52 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 31, 4, 2 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 34, 4, 17 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 35, 4, 11 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 37, 4, 3 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 38, 4, 20 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 39, 4, 26 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 40, 4, 16 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 44, 5, 50 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 45, 5, 51 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 47, 4, 31 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 48, 4, 29 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 50, 4, 7 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 51, 4, 45 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 56, 5, 53 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 57, 5, 54 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 59, 4, 39 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 60, 4, 214 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 62, 4, 27 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 63, 4, 22 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 64, 4, 25 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 65, 4, 49 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 66, 4, 42 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 67, 4, 35 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 70, 4, 47 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (2, 1, 87, 4, 9 );
+---------------------------------
+[28 10 2026 20:03:04] UPDATE funckeymap SET charid = 1, ord = 2 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 1, 4, 46 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 2, 4, 10 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 3, 4, 12 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 4, 4, 13 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 5, 4, 18 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 6, 4, 23 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 16, 4, 8 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 17, 4, 5 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 18, 4, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 19, 4, 4 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 23, 4, 1 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 24, 4, 216 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 25, 4, 19 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 27, 4, 15 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 29, 5, 52 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 31, 4, 2 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 34, 4, 17 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 35, 4, 11 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 37, 4, 3 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 38, 4, 20 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 39, 4, 26 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 40, 4, 16 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 44, 5, 50 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 45, 5, 51 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 47, 4, 31 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 48, 4, 29 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 50, 4, 7 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 51, 4, 45 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 56, 5, 53 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 57, 5, 54 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 59, 4, 39 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 60, 4, 214 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 62, 4, 27 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 63, 4, 22 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 64, 4, 25 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 65, 4, 49 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 66, 4, 42 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 67, 4, 35 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 70, 4, 47 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (3, 1, 87, 4, 9 );
+---------------------------------
+[28 10 2026 20:03:04] UPDATE monsterbookinfos SET setid = -1, coverid = -1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `damageskins` (`charid`, `damageskinid`, `itemID`, `notsave`, `activatetime`, `description` ) VALUES (1, 0, 0, 0, '2026-10-28 20:03:04.638', '' );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 0, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 1, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 2, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 3, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 4, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 5, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 6, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 7, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 8, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 9, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 10, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 11, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `hyperrockfields` (`charid`, `ord`, `fieldid` ) VALUES (1, 12, 999999999 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1001177, 1, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 1, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 1, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 'Cp', 'CpH5', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1051903, 5, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 1, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 2, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 'MaPn', 'MaPn', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1071210, 7, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 1, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 3, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 'So', 'So', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1215000, 11, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 1, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 4, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 4, 1, 0, 0, 0, 0, 'Wp', 'Wp', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (3, 1, NULL, 0, 2000002, 1, 0, '9999-01-01 00:00:01.0', 2, 0, 100, 0, '', 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (3, 1, NULL, 0, 2000006, 2, 0, '9999-01-01 00:00:01.0', 2, 0, 100, 0, '', 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (3, 1, NULL, 0, 2001505, 3, 0, '9999-01-01 00:00:01.0', 2, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (3, 1, NULL, 0, 2432022, 4, 0, '9999-01-01 00:00:01.0', 2, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:04] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (3, 1, NULL, 0, 2433509, 5, 0, '9999-01-01 00:00:01.0', 2, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 160021074, 16002, 1, 1, 1 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 160020000, 16002, 1, 1, 1 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 160021075, 16002, 1, 1, 1 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 160021005, 16002, 1, 1, 1 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 160020001, 16002, 3, 3, 3 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161001000, 16100, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161001001, 16100, 5, 0, 5 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161000005, 16100, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161001003, 16100, 10, 0, 10 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161000004, 16100, 10, 0, 10 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161100008, 16110, 10, 0, 10 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161100003, 16110, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161100007, 16110, 4, 0, 4 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161101009, 16110, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161100006, 16110, 10, 0, 10 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161101002, 16110, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161101005, 16110, 10, 0, 10 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161101000, 16110, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `skills` (`charid`, `skillid`, `rootid`, `maxlevel`, `currentlevel`, `masterlevel` ) VALUES (1, 161101001, 16110, 20, 0, 20 );
+---------------------------------
+[28 10 2026 20:03:08] HikariProxyPreparedStatement@962392828 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,36831,'',2,'2026-10-28 20:03:08.787',null]}
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1215002, 11, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 3100, 0 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 10, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 1, 0, 0, 0, 0, 0, 0, 4, 3100, 0, 0, 0, 0, 'Wp', 'Wp', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `items` (`inventoryid`, `charid`, `trunkid`, `auctionHouseStatus`, `itemid`, `bagindex`, `cashitemserialnumber`, `dateexpire`, `invtype`, `iscash`, `quantity`, `expireonlogout`, `owner`, `obtainedonce`, `zeroShareItemID`, `attribute`, `bossrewardid`, `mobtemplateid`, `partysize`, `price`, `titleon` ) VALUES (1, 1, NULL, 0, 1354041, 10, 0, '9999-01-01 00:00:01.0', -1, 0, 1, 0, '', 0, 0, 0, 0, 0, 0, 3000, 0 );
+---------------------------------
+[28 10 2026 20:03:08] INSERT INTO `equips` (`charid`, `preset`, `itemid`, `title`, `equippeddate`, `options`, `sockets`, `tuc`, `cuc`, `istr`, `idex`, `iint`, `iluk`, `imaxhp`, `imaxhpr`, `imaxmp`, `imaxmpr`, `ipad`, `imad`, `ipdd`, `imdd`, `iacc`, `ieva`, `icraft`, `equipattribute`, `ispeed`, `ijump`, `leveluptype`, `level`, `exp`, `durability`, `iuc`, `ireducereq`, `specialattribute`, `durabilitymax`, `iincreq`, `growthenchant`, `psenchant`, `hyperupgrade`, `bdr`, `imdr`, `damr`, `statr`, `cuttable`, `exgradeoption`, `itemstate`, `grade`, `chuc`, `souloptionid`, `soulsocketid`, `souloption`, `soulitemid`, `rstr`, `rdex`, `rint`, `rluk`, `rlevel`, `rjob`, `rpop`, `specialgrade`, `fixedpotential`, `tradeblock`, `isonly`, `notsale`, `attackspeed`, `price`, `charmexp`, `setitemid`, `exitem`, `equiptradeblock`, `islot`, `vslot`, `fixedgrade`, `nopotential`, `bossreward`, `superioreqp`, `android`, `androidgrade`, `arcane_stat`, `arcane_exp`, `arcane_level`, `flame_str`, `flame_dex`, `flame_int`, `flame_luk`, `flame_pad`, `flame_mad`, `flame_pdd`, `flame_hp`, `flame_mp`, `flame_speed`, `flame_jump`, `flame_allStatR`, `flame_bossDamageR`, `flame_damageR`, `flame_reduceReqLevel`, `except_slot`, `except_str`, `except_dex`, `except_int`, `except_luk`, `except_pad`, `except_mad`, `except_pdd`, `except_hp`, `except_mp`, `except_speed`, `except_jump`, `except_allStatR`, `except_bossDamageR`, `except_damageR`, `except_reduceReqLevel` ) VALUES (1, 0, 11, '', '1970-01-01 00:00:00.000', '0,0,0,0,0,0,0', '0,0,0', 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 256, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 1, 0, 0, 0, 0, 0, 0, 0, 3000, 0, 0, 0, 0, 'Si', 'Si', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 1, sp = 70 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 2, sp = 3 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE noncombatstatdaylimit SET charisma = 0, charm = 0, insight = 0, will = 0, craft = 0, sense = 0, lastupdatecharmbycashpr = '1970-01-01 00:00:01.0', charmbycashpr = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE systemtimes SET yr = 2026, mnth = 10 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE characterstats SET characterid = 1, worldidforlog = 0, name = '你好旅行者', gender = 1, skin = 12, face = 58247, hair = 67620, mixbasehaircolor = -1, mixaddhaircolor = 0, mixhairbaseprob = 0, level = 30, job = 16110, str = 45, dex = 4, inte = 4, luk = 4, hp = 2500, maxhp = 2500, mp = 1040, maxmp = 1040, ap = 100, sp = 0, exp = 0, pop = 0, money = 100000, wp = 0, posmap = 100000000, portal = 0, subjob = 0, deffaceacc = 0, fatigue = 0, lastfatigueupdatetime = 0, charismaexp = 0, insightexp = 0, willexp = 0, craftexp = 0, senseexp = 0, charmexp = 0, mcpoint = 0, eventpoint = 0, lastlogout = '1601-01-01 08:00:00.0', gachexp = 0, honorexp = 0, nextavailablefametime = '2026-10-28 20:03:03.542', node_shards = 0, maxfriends = 50, combatpower = 0, chuc = 0, arc = 0, aut = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 1, sp = 70 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 2, sp = 3 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:03:08] UPDATE avatarlook SET gender = 1, skin = 12, face = 58247, hair = 67620, weaponstickerid = 0, weaponid = 1215000, subweaponid = 0, job = 16110, drawelfear = 0, demonslayerdeffaceacc = 0, xenondeffaceacc = 0, beasttamerdeffaceacc = 0, iszerobetalook = 0, mixedhaircolor = 0, mixhairpercent = 0, ears = 0, tail = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 0, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 1, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 2, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 3, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 4, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:25] INSERT INTO `skillalarms` (`charid`, `index`, `skillid`, `enable`, `key_` ) VALUES (1, 5, 0, 0, -1 );
+---------------------------------
+[28 10 2026 20:03:28] DELETE FROM `skillcooltimes` WHERE `charid` = 1
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1528574301 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,7707,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1851899836 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,14431,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@470039897 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16019,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1174769113 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16021,'000',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@2076086445 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16023,'000',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@694002645 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16025,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@913690071 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16027,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1594190930 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16029,'000',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1322168541 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16874,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@464495780 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,16874,'',2,'2026-10-28 20:03:28.512',null,40,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@13930358 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16875,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1133077117 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,16875,'',2,'2026-10-28 20:03:28.529',null,41,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1215683541 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,16876,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@391665526 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,16876,'',2,'2026-10-28 20:03:28.543',null,42,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1850475365 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,18938,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@2102371300 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,26024,'000',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@624168704 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,33189,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@312531733 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,33190,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@648036292 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,33243,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@553148946 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,33265,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1971135608 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,33267,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@54991903 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,66728,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1754737953 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,504755,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1724793208 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,504755,'',2,'2026-10-28 20:03:28.653',null,51,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@539929194 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,504756,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1289094867 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,504756,'',2,'2026-10-28 20:03:28.667',null,52,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1013762114 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,504757,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@833435590 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,504757,'',2,'2026-10-28 20:03:28.680',null,53,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1862964886 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,504758,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@908274142 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,504758,'',2,'2026-10-28 20:03:28.695',null,54,1]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@32906059 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,504759,'',1,null,null]}
+---------------------------------
+[28 10 2026 20:03:28] HikariProxyPreparedStatement@1153955852 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,504759,'',2,'2026-10-28 20:03:28.709',null,55,1]}
+---------------------------------
+[28 10 2026 20:04:22] UPDATE skills SET skillid = 161001000, rootid = 16100, maxlevel = 20, currentlevel = 1, masterlevel = 20 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 1, sp = 69 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 2, sp = 3 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE noncombatstatdaylimit SET charisma = 0, charm = 0, insight = 0, will = 0, craft = 0, sense = 0, lastupdatecharmbycashpr = '1970-01-01 00:00:01.0', charmbycashpr = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE systemtimes SET yr = 2026, mnth = 10 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:04:22] UPDATE characterstats SET characterid = 1, worldidforlog = 0, name = '你好旅行者', gender = 1, skin = 12, face = 58247, hair = 67620, mixbasehaircolor = -1, mixaddhaircolor = 0, mixhairbaseprob = 0, level = 30, job = 16110, str = 45, dex = 4, inte = 4, luk = 4, hp = 2500, maxhp = 2500, mp = 1040, maxmp = 1040, ap = 100, sp = 0, exp = 0, pop = 0, money = 100000, wp = 0, posmap = 100000000, portal = 3, subjob = 0, deffaceacc = 0, fatigue = 0, lastfatigueupdatetime = 0, charismaexp = 0, insightexp = 0, willexp = 0, craftexp = 0, senseexp = 0, charmexp = 0, mcpoint = 0, eventpoint = 0, lastlogout = '1601-01-01 08:00:00.0', gachexp = 0, honorexp = 0, nextavailablefametime = '2026-10-28 20:03:03.542', node_shards = 0, maxfriends = 50, combatpower = 149, chuc = 0, arc = 0, aut = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:20] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 43, 4, 9 );
+---------------------------------
+[28 10 2026 20:05:20] UPDATE keymaps SET charid = 1, idx = 87, type = 0, val = 0 WHERE id = 40;
+---------------------------------
+[28 10 2026 20:05:27] INSERT INTO `keymaps` (`fkmapid`, `charid`, `idx`, `type`, `val` ) VALUES (1, 1, 30, 1, 161001000 );
+---------------------------------
+[28 10 2026 20:05:55] HikariProxyPreparedStatement@410154083 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests_acc` (`accid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,501619,'count=180;time=20261028;max=180;type=2',1,null,null]}
+---------------------------------
+[28 10 2026 20:05:55] HikariProxyPreparedStatement@945779015 wrapping ClientPreparedStatement{sql:'UPDATE quests_acc SET accid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND accid = ?', parameters:[1,501619,'count=180;time=20261028;max=180;type=2',1,null,null,1,1]}
+---------------------------------
+[28 10 2026 20:05:55] [HikariCP Database] Saving Character: 你好旅行者
+---------------------------------
+[28 10 2026 20:05:55] HikariProxyPreparedStatement@498090716 wrapping ClientPreparedStatement{sql:'INSERT INTO `quests` (`charid`, `qrkey`, `qrvalue`, `status`, `completedtime`, `expireterm`) VALUES (?, ?, ?, ?, ?, ?)', parameters:[1,12394,'',2,'2026-10-28 20:03:25.526',null]}
+---------------------------------
+[28 10 2026 20:05:55] HikariProxyPreparedStatement@974941395 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,18938,'',1,null,null,43,1]}
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 1, sp = 69 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 2, sp = 3 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE noncombatstatdaylimit SET charisma = 0, charm = 0, insight = 0, will = 0, craft = 0, sense = 0, lastupdatecharmbycashpr = '1970-01-01 00:00:01.0', charmbycashpr = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE systemtimes SET yr = 2026, mnth = 10 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE characterstats SET characterid = 1, worldidforlog = 0, name = '你好旅行者', gender = 1, skin = 12, face = 58247, hair = 67620, mixbasehaircolor = -1, mixaddhaircolor = 0, mixhairbaseprob = 0, level = 30, job = 16110, str = 45, dex = 4, inte = 4, luk = 4, hp = 2500, maxhp = 2500, mp = 1040, maxmp = 1040, ap = 100, sp = 0, exp = 0, pop = 0, money = 100000, wp = 0, posmap = 100000000, portal = 3, subjob = 0, deffaceacc = 0, fatigue = 0, lastfatigueupdatetime = 0, charismaexp = 0, insightexp = 0, willexp = 0, craftexp = 0, senseexp = 0, charmexp = 0, mcpoint = 0, eventpoint = 0, lastlogout = '2026-10-28 20:05:55.33', gachexp = 0, honorexp = 0, nextavailablefametime = '2026-10-28 20:03:03.542', node_shards = 0, maxfriends = 50, combatpower = 149, chuc = 0, arc = 0, aut = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE avatarlook SET gender = 1, skin = 12, face = 58247, hair = 67620, weaponstickerid = 0, weaponid = 1215000, subweaponid = 0, job = 16110, drawelfear = 0, demonslayerdeffaceacc = 0, xenondeffaceacc = 0, beasttamerdeffaceacc = 0, iszerobetalook = 0, mixedhaircolor = 0, mixhairpercent = 0, ears = 0, tail = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE eventnametag SET charid = 1, activeRed = -1, activeBlue = -1, activeYellow = -1, activeGreen = -1, activePurple = -1, sRed = '0000000000', sBlue = '0000000000', sYellow = '0000000000', sGreen = '0000000000', sPurple = '0000000000' WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE funckeymap SET charid = 1, ord = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 8;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 9;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 10;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 11;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 12;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 13;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 14;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 15;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 16;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 17;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 18;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 19;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 20;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 21;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 22;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 23;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 24;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 25;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 26;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 27;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 28;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 29;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 30;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 31;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 32;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 33;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 34;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 35;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 36;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 37;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 38;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 39;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 87, type = 0, val = 0 WHERE id = 40;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 43, type = 4, val = 9 WHERE id = 121;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 30, type = 1, val = 161001000 WHERE id = 122;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE funckeymap SET charid = 1, ord = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 41;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 42;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 43;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 44;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 45;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 46;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 47;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 48;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 49;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 50;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 51;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 52;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 53;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 54;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 55;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 56;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 57;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 58;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 59;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 60;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 61;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 62;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 63;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 64;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 65;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 66;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 67;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 68;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 69;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 70;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 71;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 72;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 73;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 74;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 75;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 76;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 77;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 78;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 79;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 87, type = 4, val = 9 WHERE id = 80;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE funckeymap SET charid = 1, ord = 2 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 81;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 82;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 83;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 84;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 85;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 86;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 87;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 88;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 89;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 90;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 91;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 92;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 93;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 94;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 95;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 96;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 97;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 98;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 99;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 100;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 101;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 102;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 103;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 104;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 105;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 106;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 107;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 108;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 109;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 110;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 111;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 112;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 113;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 114;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 115;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 116;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 117;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 118;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 119;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE keymaps SET charid = 1, idx = 87, type = 4, val = 9 WHERE id = 120;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = -1, slots = 128 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 5, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Cp', vslot = 'CpH5', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 2, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'MaPn', vslot = 'MaPn', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 7, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 2, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'So', vslot = 'So', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 15, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 1, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 4, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Wp', vslot = 'Wp', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 50, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 30, rjob = 1, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 0, isonly = 0, notsale = 0, attackspeed = 4, price = 3100, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Wp', vslot = 'Wp', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 10;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 0, cuc = 0, istr = 4, idex = 4, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 1, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 30, rjob = 1, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 0, isonly = 0, notsale = 0, attackspeed = 0, price = 3000, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Si', vslot = 'Si', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 11;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 1, slots = 48 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 2, slots = 48 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 4, slots = 48 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 3, slots = 48 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 5, slots = 128 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE inventories SET type = 6, slots = 256 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161000005, rootid = 16100, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 8;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161101001, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 19;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161001003, rootid = 16100, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 9;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 160020000, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161001001, rootid = 16100, maxlevel = 5, currentlevel = 0, masterlevel = 5 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161001000, rootid = 16100, maxlevel = 20, currentlevel = 1, masterlevel = 20 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 160021075, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161101005, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 17;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 160021074, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161101002, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 16;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161101000, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 18;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161000004, rootid = 16100, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 10;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161100008, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 11;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 160020001, rootid = 16002, maxlevel = 3, currentlevel = 3, masterlevel = 3 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 160021005, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161100003, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 12;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161101009, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 14;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161100007, rootid = 16110, maxlevel = 4, currentlevel = 0, masterlevel = 4 WHERE id = 13;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE skills SET skillid = 161100006, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 15;
+---------------------------------
+[28 10 2026 20:05:55] INSERT INTO `dailycoin` (`charid`, `point`, `coin`, `isLock` ) VALUES (1, 0, 0, 0 );
+---------------------------------
+[28 10 2026 20:05:55] UPDATE monsterbookinfos SET setid = -1, coverid = -1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] INSERT INTO `beautydata` (`charid`, `hairsize`, `facesize`, `skinsize`, `hairstring`, `facestring`, `skinstring` ) VALUES (1, 3, 3, 3, '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1', '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1', '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1');
+---------------------------------
+[28 10 2026 20:05:55] INSERT INTO `characterpotentials` (`preset`, `potkey`, `skillID`, `slv`, `grade`, `charid` ) VALUES (0, 1, 70000044, 5, 0, 1 );
+---------------------------------
+[28 10 2026 20:05:55] INSERT INTO `characterpotentials` (`preset`, `potkey`, `skillID`, `slv`, `grade`, `charid` ) VALUES (1, 1, 70000044, 5, 0, 1 );
+---------------------------------
+[28 10 2026 20:05:55] INSERT INTO `characterpotentials` (`preset`, `potkey`, `skillID`, `slv`, `grade`, `charid` ) VALUES (2, 1, 70000044, 5, 0, 1 );
+---------------------------------
+[28 10 2026 20:05:55] UPDATE damageskins SET charid = 1, damageskinid = 0, itemID = 0, notsave = 0, activatetime = '2026-10-28 20:03:04.0', description = '' WHERE id = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 0;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 1;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 2;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 3;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 4;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 5;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 6;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 7;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 8;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 9;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 10;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 11;
+---------------------------------
+[28 10 2026 20:05:55] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 12;
+---------------------------------
+[28 10 2026 20:06:14] DELETE FROM `skillcooltimes` WHERE `charid` = 1
+---------------------------------
+[28 10 2026 20:12:37] HikariProxyPreparedStatement@1885326183 wrapping ClientPreparedStatement{sql:'UPDATE quests_acc SET accid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND accid = ?', parameters:[1,501619,'count=180;time=20261028;max=180;type=2',1,null,null,1,1]}
+---------------------------------
+[28 10 2026 20:12:37] HikariProxyPreparedStatement@100560154 wrapping ClientPreparedStatement{sql:'UPDATE quests_acc SET accid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND accid = ?', parameters:[1,501619,'count=180;time=20261028;max=180;type=2',1,null,null,1,1]}
+---------------------------------
+[28 10 2026 20:12:37] [HikariCP Database] Saving Character: 你好旅行者
+---------------------------------
+[28 10 2026 20:12:37] HikariProxyPreparedStatement@317373066 wrapping ClientPreparedStatement{sql:'UPDATE quests SET charid = ?, qrkey = ?, qrvalue = ?, status = ?, completedtime = ?, expireterm = ? WHERE id = ? AND charid = ?', parameters:[1,18938,'',1,null,null,43,1]}
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 1, sp = 69 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 2, sp = 3 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 3, sp = 0 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 4, sp = 0 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 5, sp = 0 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 6, sp = 0 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE spset SET joblevel = 7, sp = 0 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE noncombatstatdaylimit SET charisma = 0, charm = 0, insight = 0, will = 0, craft = 0, sense = 0, lastupdatecharmbycashpr = '1970-01-01 00:00:01.0', charmbycashpr = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE systemtimes SET yr = 2026, mnth = 10 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE characterstats SET characterid = 1, worldidforlog = 0, name = '你好旅行者', gender = 1, skin = 12, face = 58247, hair = 67620, mixbasehaircolor = -1, mixaddhaircolor = 0, mixhairbaseprob = 0, level = 30, job = 16110, str = 45, dex = 4, inte = 4, luk = 4, hp = 2500, maxhp = 2500, mp = 1040, maxmp = 1040, ap = 100, sp = 0, exp = 0, pop = 0, money = 100000, wp = 0, posmap = 100000000, portal = 3, subjob = 0, deffaceacc = 0, fatigue = 0, lastfatigueupdatetime = 0, charismaexp = 0, insightexp = 0, willexp = 0, craftexp = 0, senseexp = 0, charmexp = 0, mcpoint = 0, eventpoint = 0, lastlogout = '2026-10-28 20:12:37.759', gachexp = 0, honorexp = 0, nextavailablefametime = '2026-10-28 20:03:03.0', node_shards = 0, maxfriends = 50, combatpower = 149, chuc = 0, arc = 0, aut = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE avatarlook SET gender = 1, skin = 12, face = 58247, hair = 67620, weaponstickerid = 0, weaponid = 1215000, subweaponid = 0, job = 16110, drawelfear = 0, demonslayerdeffaceacc = 0, xenondeffaceacc = 0, beasttamerdeffaceacc = 0, iszerobetalook = 0, mixedhaircolor = 0, mixhairpercent = 0, ears = 0, tail = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE eventnametag SET charid = 1, activeRed = -1, activeBlue = -1, activeYellow = -1, activeGreen = -1, activePurple = -1, sRed = '0000000000', sBlue = '0000000000', sYellow = '0000000000', sGreen = '0000000000', sPurple = '0000000000' WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE funckeymap SET charid = 1, ord = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 8;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 9;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 10;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 11;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 12;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 13;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 14;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 15;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 16;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 17;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 18;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 19;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 20;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 21;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 22;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 23;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 24;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 25;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 26;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 27;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 28;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 29;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 30;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 31;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 32;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 33;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 34;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 35;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 36;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 37;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 38;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 39;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 87, type = 0, val = 0 WHERE id = 40;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 43, type = 4, val = 9 WHERE id = 121;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 30, type = 1, val = 161001000 WHERE id = 122;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE funckeymap SET charid = 1, ord = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 41;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 42;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 43;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 44;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 45;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 46;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 47;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 48;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 49;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 50;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 51;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 52;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 53;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 54;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 55;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 56;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 57;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 58;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 59;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 60;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 61;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 62;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 63;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 64;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 65;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 66;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 67;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 68;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 69;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 70;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 71;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 72;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 73;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 74;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 75;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 76;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 77;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 78;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 79;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 87, type = 4, val = 9 WHERE id = 80;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE funckeymap SET charid = 1, ord = 2 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 1, type = 4, val = 46 WHERE id = 81;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 2, type = 4, val = 10 WHERE id = 82;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 3, type = 4, val = 12 WHERE id = 83;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 4, type = 4, val = 13 WHERE id = 84;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 5, type = 4, val = 18 WHERE id = 85;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 6, type = 4, val = 23 WHERE id = 86;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 16, type = 4, val = 8 WHERE id = 87;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 17, type = 4, val = 5 WHERE id = 88;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 18, type = 4, val = 0 WHERE id = 89;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 19, type = 4, val = 4 WHERE id = 90;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 23, type = 4, val = 1 WHERE id = 91;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 24, type = 4, val = 216 WHERE id = 92;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 25, type = 4, val = 19 WHERE id = 93;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 27, type = 4, val = 15 WHERE id = 94;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 29, type = 5, val = 52 WHERE id = 95;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 31, type = 4, val = 2 WHERE id = 96;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 34, type = 4, val = 17 WHERE id = 97;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 35, type = 4, val = 11 WHERE id = 98;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 37, type = 4, val = 3 WHERE id = 99;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 38, type = 4, val = 20 WHERE id = 100;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 39, type = 4, val = 26 WHERE id = 101;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 40, type = 4, val = 16 WHERE id = 102;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 44, type = 5, val = 50 WHERE id = 103;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 45, type = 5, val = 51 WHERE id = 104;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 47, type = 4, val = 31 WHERE id = 105;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 48, type = 4, val = 29 WHERE id = 106;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 50, type = 4, val = 7 WHERE id = 107;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 51, type = 4, val = 45 WHERE id = 108;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 56, type = 5, val = 53 WHERE id = 109;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 57, type = 5, val = 54 WHERE id = 110;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 59, type = 4, val = 39 WHERE id = 111;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 60, type = 4, val = 214 WHERE id = 112;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 62, type = 4, val = 27 WHERE id = 113;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 63, type = 4, val = 22 WHERE id = 114;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 64, type = 4, val = 25 WHERE id = 115;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 65, type = 4, val = 49 WHERE id = 116;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 66, type = 4, val = 42 WHERE id = 117;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 67, type = 4, val = 35 WHERE id = 118;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 70, type = 4, val = 47 WHERE id = 119;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE keymaps SET charid = 1, idx = 87, type = 4, val = 9 WHERE id = 120;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = -1, slots = 128 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 5, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Cp', vslot = 'CpH5', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 2, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'MaPn', vslot = 'MaPn', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 7, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 0, imad = 0, ipdd = 2, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 0, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 0, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'So', vslot = 'So', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 15, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 1, rjob = 0, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 1, isonly = 1, notsale = 1, attackspeed = 4, price = 1, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Wp', vslot = 'Wp', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 9, cuc = 0, istr = 0, idex = 0, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 50, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 30, rjob = 1, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 0, isonly = 0, notsale = 0, attackspeed = 4, price = 3100, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Wp', vslot = 'Wp', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 10;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE equips SET charid = 1, preset = 0, title = '', equippeddate = '1970-01-01 00:00:00.0', prevbonusexprate = 0, options = '0,0,0,0,0,0,0', sockets = '0,0,0', tuc = 0, cuc = 0, istr = 4, idex = 4, iint = 0, iluk = 0, imaxhp = 0, imaxhpr = 0, imaxmp = 0, imaxmpr = 0, ipad = 1, imad = 0, ipdd = 0, imdd = 0, iacc = 0, ieva = 0, icraft = 0, equipattribute = 0,ispeed = 0, leveluptype = 0, level = 1, exp = 0, durability = 0, iuc = 0, ipvpdamage = 0, ireducereq = 0, specialattribute = 0, durabilitymax = 0, iincreq = 0, growthenchant = 0, psenchant = 0, hyperupgrade = 256, bdr = 0, imdr = 0, damr = 0, statr = 0, cuttable = -1, exgradeoption = 0, itemstate = 0, grade = 0, chuc = 0, souloptionid = 0, soulsocketid = 0, souloption = 0, soulitemid = 0, rstr = 0, rdex = 0, rint = 0, rluk = 0, rlevel = 30, rjob = 1, rpop = 0, specialgrade = 0, fixedpotential = 0, tradeblock = 0, isonly = 0, notsale = 0, attackspeed = 0, price = 3000, charmexp = 0, setitemid = 0, exitem = 0, equiptradeblock = 0, islot = 'Si', vslot = 'Si', fixedgrade = 0, nopotential = 0, bossreward = 0, superioreqp = 0, android = 0, androidgrade = 0, arcane_stat = 0, arcane_exp = 0, arcane_level = 0, flame_str = 0, flame_dex = 0, flame_int = 0, flame_luk = 0, flame_pad = 0, flame_mad = 0, flame_pdd = 0, flame_hp = 0, flame_mp = 0, flame_speed = 0, flame_jump = 0, flame_allStatR = 0, flame_bossDamageR = 0, flame_damageR = 0, flame_reduceReqLevel = 0, except_slot = 0, except_str = 0, except_dex = 0, except_int = 0, except_luk = 0, except_pad = 0, except_mad = 0, except_pdd = 0, except_hp = 0, except_mp = 0, except_speed = 0, except_jump = 0, except_allStatR = 0, except_bossDamageR = 0, except_damageR = 0, except_reduceReqLevel = 0 WHERE itemid = 11;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 1, slots = 48 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 2, slots = 48 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 4, slots = 48 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 3, slots = 48 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 5, slots = 128 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE inventories SET type = 6, slots = 256 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161000005, rootid = 16100, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 8;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161101001, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 19;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161001003, rootid = 16100, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 9;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 160020000, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161001001, rootid = 16100, maxlevel = 5, currentlevel = 0, masterlevel = 5 WHERE id = 7;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161001000, rootid = 16100, maxlevel = 20, currentlevel = 1, masterlevel = 20 WHERE id = 6;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 160021075, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161101005, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 17;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 160021074, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161101002, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 16;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161101000, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 18;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161000004, rootid = 16100, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 10;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161100008, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 11;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 160020001, rootid = 16002, maxlevel = 3, currentlevel = 3, masterlevel = 3 WHERE id = 5;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 160021005, rootid = 16002, maxlevel = 1, currentlevel = 1, masterlevel = 1 WHERE id = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161100003, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 12;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161101009, rootid = 16110, maxlevel = 20, currentlevel = 0, masterlevel = 20 WHERE id = 14;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161100007, rootid = 16110, maxlevel = 4, currentlevel = 0, masterlevel = 4 WHERE id = 13;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE skills SET skillid = 161100006, rootid = 16110, maxlevel = 10, currentlevel = 0, masterlevel = 10 WHERE id = 15;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE dailycoin SET charid = 1, point = 0, coin = 0, isLock = 0 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE monsterbookinfos SET setid = -1, coverid = -1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE beautydata SET charid = 1, hairsize = 3, facesize = 3, skinsize = 3, hairstring = '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1', facestring = '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1', skinstring = '-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1'WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE characterpotentials SET preset = 0, potkey = 1, skillID = 70000044, slv = 5, grade = 0, charid = 1 WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE characterpotentials SET preset = 1, potkey = 1, skillID = 70000044, slv = 5, grade = 0, charid = 1 WHERE id = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE characterpotentials SET preset = 2, potkey = 1, skillID = 70000044, slv = 5, grade = 0, charid = 1 WHERE id = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE damageskins SET charid = 1, damageskinid = 0, itemID = 0, notsave = 0, activatetime = '2026-10-28 20:03:04.0', description = '' WHERE id = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 0;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 1;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 2;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 3;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 4;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 5;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 6;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 7;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 8;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 9;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 10;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 11;
+---------------------------------
+[28 10 2026 20:12:37] UPDATE hyperrockfields SET fieldid = 999999999 WHERE charid = 1 AND ord = 12;
+---------------------------------

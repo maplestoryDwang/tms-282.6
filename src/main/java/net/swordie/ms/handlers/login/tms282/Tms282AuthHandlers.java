@@ -43,8 +43,10 @@ final class Tms282AuthHandlers {
     static final String SPW_CANCEL_UNLOCK_KEY = "tms282.spwCancelUnlockSec";
     static final int SPW_CANCEL_UNLOCK_MIN_SECONDS = 60;
     static final int SPW_CANCEL_UNLOCK_MAX_SECONDS = 3600;
-    /** CP0071 region/version check: locale 6, 0x1A, 1, then the build at offset 7 (28203 / 28204 / 28205, tms282.clientBuild). */
+    /** CP0071 region/version check: locale 6, 0x1A, 1, then the build at offset 7 (28203 / 28204 / 28205 / 28206, tms282.clientBuild). */
     static final int CLIENT_BUILD = net.swordie.ms.connection.packet.Tms282ClientBuild.build();
+    /** {@code tms282.fileReport.enforce}: compare the CP0078 manifest with the packaged reference (default true). */
+    static final String FILE_REPORT_ENFORCE_KEY = "tms282.fileReport.enforce";
 
     private final Tms282LoginContext context;
     private final Tms282WorldHandlers worlds;
@@ -138,13 +140,25 @@ final class Tms282AuthHandlers {
         return out;
     }
 
-    /** CP0078: a malformed, incomplete or modified manifest gets no success reply (the parser or check throws). */
+    /**
+     * CP0078: a malformed, incomplete or modified manifest gets no success reply (the parser or check throws).
+     * <p>
+     * 2026-10-28: {@code tms282.fileReport.enforce} (hot, default true) lets a build whose trusted reference does not
+     * exist yet (282.6 — the packaged reference is the 282.5 client's) still complete the file check: the report is
+     * parsed (magic, structure) and answered with LP005A, but its manifest is not compared with the reference.
+     */
     void onFileReport(Tms282LoginState s, int op, byte[] plain) throws Exception {
         Tms282FileReport report = Tms282FileReport.parse(plain);
-        report.validateAgainst(context.fileReference());
+        if (HotProperties.server().bool(FILE_REPORT_ENFORCE_KEY, true)) {
+            report.validateAgainst(context.fileReference());
+            System.out.println("[TMS282] VERIFIED client file report entries=" + report.fileCrcs().size()
+                    + "; SENT official LP005A completion");
+        } else {
+            System.out.println("[TMS282] file report accepted WITHOUT manifest check (" + FILE_REPORT_ENFORCE_KEY
+                    + "=false) entries=" + report.fileCrcs().size() + "; SENT official LP005A completion");
+        }
         s.markFileReportVerified();
         s.send(Tms282LoginSystemPackets.fileCheckComplete());
-        System.out.println("[TMS282] VERIFIED client file report entries=" + report.fileCrcs().size() + "; SENT official LP005A completion");
     }
 
     /**

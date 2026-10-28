@@ -16,7 +16,7 @@ internal static class LaunchBackend
     // 2026-10-28: the client hash gate was removed on purpose - the local client is 282.6, not the pinned
     // 282.5 build, so the launcher no longer compares MapleStory.exe against a fixed SHA-256. The starter
     // helper is still verified (StarterHash, rewritten by build.ps1 after every helper build).
-    const string StarterHash = "AFA0FC410BBCB51FFBCCD17FDE5311EDC7CA41C6B27F6B02F6A18EA3E4479D57";
+    const string StarterHash = "E80A7983C83072BED1B2691296729F606BDE38D85BCFE6AAD6B3B8F32B5BCD10";
     const string LocalHost = "127.0.0.1";
     // 2026-10-08: the game connects to the loopback alias, relayed to the server on 127.0.0.1 (LoopbackBridge)
     const string GameHost = LoopbackBridge.AliasHost;
@@ -70,8 +70,11 @@ internal static class LaunchBackend
     {
         var status = Parse(await RequestAsync("/api/v2/launcher", "{\"action\":\"status\"}").ConfigureAwait(false));
         if (!True(status, "ok") || !True(status, "running")) throw Error("伺服器尚未啟動，請先開啟 server 的 launch.bat。");
-        if (Text(status, "protocol") != "282.5") throw Error("目前連線的伺服器不是 282.5，請啟動此 server 資料夾。");
-        return "282.5";
+        // 2026-10-28: the server reports the build it is configured for ("282.5" / "282.6"). Accept any TMS 282.x
+        // instead of pinning one minor, so switching the server build does not require a rebuilt launcher.
+        string protocol = Text(status, "protocol");
+        if (protocol == null || !protocol.StartsWith("282.", StringComparison.Ordinal)) throw Error("目前連線的伺服器不是 282.x，請啟動此 server 資料夾。");
+        return protocol;
     }
 
     public static async Task<string> RegisterAsync(string username, string password, string pin)

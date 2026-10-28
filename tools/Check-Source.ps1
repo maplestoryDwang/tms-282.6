@@ -16,7 +16,7 @@ foreach ($folder in @('login','tms282.3')) {
     Copy-Item -LiteralPath (Join-Path $package ('data/protocol/' + $folder)) -Destination (Join-Path $work 'data/protocol') -Recurse -Force
 }
 # Public fixtures only; never copy the running server's database credentials.
-$config = @('protocol.version=tms282.3','tms282.clientBuild=28205','tms282.researchDir=data/protocol/login','tms282.preauthDir=preauth','tms282.fileReference=data/protocol/login/file-report-2825.bin','tms282.newbie.enabled=false')
+$config = @('protocol.version=tms282.3','tms282.clientBuild=28206','tms282.researchDir=data/protocol/login','tms282.preauthDir=preauth','tms282.fileReference=data/protocol/login/file-report-2825.bin','tms282.fileReport.enforce=false','tms282.newbie.enabled=false')
 [IO.File]::WriteAllLines((Join-Path $work 'config/server.properties'), $config, [Text.UTF8Encoding]::new($false))
 $files = @(Get-ChildItem $PSScriptRoot -Filter '*.java' -File | Select-Object -ExpandProperty FullName)
 & (Join-Path $jdk 'bin/javac.exe') --enable-preview --release 22 -encoding UTF-8 -cp $jar -d $classes $files

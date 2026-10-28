@@ -26,11 +26,11 @@ public record Tms282FileReport(int metric1, int metric2, int reserved, int table
         require(packet.length >= HEADER_LENGTH, "Truncated file-report header");
         ByteBuffer in = ByteBuffer.wrap(packet).order(ByteOrder.LITTLE_ENDIAN);
         require(Short.toUnsignedInt(in.getShort()) == 0x0078, "Wrong file-report opcode");
-        // magic2 0x68860C00 = 282.3, 0x68860C01 = 282.4, 0x68860C02 = 282.5 (research/tms2824, tms2825); the manifest check below still
-        // compares every file CRC with the trusted reference
+        // magic2 0x68860C00 = 282.3, 0x68860C01 = 282.4, 0x68860C02 = 282.5, 0x68860C03 = 282.6
+        // (research/tms2824, tms2825); the manifest check below still compares every file CRC with the trusted reference
         int magic1 = in.getInt();
         int magic2 = in.getInt();
-        require(magic1 == 0x4E8EE75F && (magic2 >= 0x68860C00 && magic2 <= 0x68860C02)
+        require(magic1 == 0x4E8EE75F && (magic2 >= 0x68860C00 && magic2 <= 0x68860C03)
                 && in.getInt() == 0x0003AC54, "Wrong TMS 282.x file-report magic");
         require(in.getInt() == 1, "Unsupported file-report type");
         int metric1 = in.getInt();

@@ -9,7 +9,7 @@ import java.util.Properties;
 
 /**
  * The TMS 282.x client build the login server speaks to: {@code tms282.clientBuild} in {@code config/server.properties}
- * (a JVM {@code -D} property with the same key wins), 28203 / 28204 / 28205, default 28205. Read once at start-up.
+ * (a JVM {@code -D} property with the same key wins), 28203 / 28204 / 28205 / 28206, default 28205. Read once at start-up.
  * <p>
  * One build at a time: the client compares the hello build ints for equality (282.4 346CBBE / 282.5 346CF1E
  * {@code cmp [rsp+0x8c], build; jne}), so a 282.4 client cannot log in to a 282.5 server or the other way round.
@@ -19,12 +19,14 @@ import java.util.Properties;
  *     <li>CP0071 build at offset 7;</li>
  *     <li>CP0078 magic2 {@code 0x68860C00 + minor - 3} (and the MapleStory.exe CRC in the file reference).</li>
  * </ul>
+ * 2026-10-28: 28206 added for the 282.6 client (the same three values, minor 6); everything else is unchanged from
+ * 282.5 until a 282.6 capture says otherwise.
  */
 public final class Tms282ClientBuild {
     public static final String KEY = "tms282.clientBuild";
     public static final int DEFAULT_BUILD = 28205;
     public static final int MIN_BUILD = 28203;
-    public static final int MAX_BUILD = 28205;
+    public static final int MAX_BUILD = 28206;
     private static final int BUILD = load();
 
     private Tms282ClientBuild() {
