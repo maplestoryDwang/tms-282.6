@@ -1,0 +1,28 @@
+[28 10 2026 11:32:23] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 11:32:23] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 11:38:52] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 11:38:52] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 11:50:09] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 11:50:09] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 12:31:47] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 12:31:47] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 13:34:50] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 13:34:50] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 13:58:47] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 13:58:47] UPDATE characters SET party = 0
+---------------------------------
+[28 10 2026 14:00:40] UPDATE users SET clientstate = 0
+---------------------------------
+[28 10 2026 14:00:40] UPDATE characters SET party = 0
+---------------------------------

@@ -1,0 +1,288 @@
+[28 10 2026 11:32:23] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local3>" is null
+	at net.swordie.ms.loaders.FieldData.loadFieldInfoFromWz(FieldData.java:191)
+	at net.swordie.ms.loaders.FieldData.generateDatFiles(FieldData.java:793)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local8>" is null
+	at net.swordie.ms.loaders.ItemData.loadEquipsFromWz(ItemData.java:292)
+	at net.swordie.ms.loaders.ItemData.generateDatFiles(ItemData.java:2135)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.io.FileNotFoundException: D:\mxd-data\282\TMS282.5\source\data\wz265\Etc.wz\MobZoneInfo.img.xml (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:84)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:180)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:654)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+	at net.swordie.ms.util.XMLApi.getRoot(XMLApi.java:83)
+	at net.swordie.ms.loaders.MobData.loadMobZoneInfoFromWZ(MobData.java:1292)
+	at net.swordie.ms.loaders.MobData.generateDatFiles(MobData.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.w3c.dom.Node.getFirstChild()" because "node" is null
+	at net.swordie.ms.util.XMLApi.getAllChildren(XMLApi.java:39)
+	at net.swordie.ms.loaders.MobData.loadMobZoneInfoFromWZ(MobData.java:1293)
+	at net.swordie.ms.loaders.MobData.generateDatFiles(MobData.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.io.FileNotFoundException: D:\mxd-data\282\TMS282.5\source\data\wz265\String.wz\Skill.img.xml (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:84)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:180)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:654)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+	at net.swordie.ms.util.XMLApi.getRoot(XMLApi.java:83)
+	at net.swordie.ms.loaders.StringData.loadSkillStringsFromWz(StringData.java:103)
+	at net.swordie.ms.loaders.StringData.generateDatFiles(StringData.java:227)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.w3c.dom.Node.getFirstChild()" because "node" is null
+	at net.swordie.ms.util.XMLApi.getAllChildren(XMLApi.java:39)
+	at net.swordie.ms.loaders.StringData.loadSkillStringsFromWz(StringData.java:105)
+	at net.swordie.ms.loaders.StringData.generateDatFiles(StringData.java:227)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local1>" is null
+	at net.swordie.ms.loaders.NpcData.loadNpcsFromWz(NpcData.java:24)
+	at net.swordie.ms.loaders.NpcData.generateDatFiles(NpcData.java:182)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.nio.file.NoSuchFileException: D:\mxd-data\282\TMS282.5\source\data\wz265\Quest.wz\QuestData
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+	at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)
+	at java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)
+	at java.base/java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:71)
+	at java.base/java.nio.file.Files.walk(Files.java:3898)
+	at java.base/java.nio.file.Files.walk(Files.java:3953)
+	at net.swordie.ms.loaders.QuestData.loadQuestsFromWZ(QuestData.java:38)
+	at net.swordie.ms.loaders.QuestData.generateDatFiles(QuestData.java:533)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local3>" is null
+	at net.swordie.ms.loaders.ReactorData.loadReactorsFromWZ(ReactorData.java:34)
+	at net.swordie.ms.loaders.ReactorData.generateDatFiles(ReactorData.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local3>" is null
+	at net.swordie.ms.loaders.SkillData.loadSkillXmlFiles(SkillData.java:465)
+	at net.swordie.ms.loaders.SkillData.loadSkillsFromWz(SkillData.java:460)
+	at net.swordie.ms.loaders.SkillData.generateDatFiles(SkillData.java:1913)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot read the array length because "<local2>" is null
+	at net.swordie.ms.loaders.Etc.EtcData.loadAndroidsFromWz(EtcData.java:46)
+	at net.swordie.ms.loaders.Etc.EtcData.generateDatFiles(EtcData.java:453)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.io.FileNotFoundException: D:\mxd-data\282\TMS282.5\source\data\wz265\Etc.wz\SetItemInfo.img.xml (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:84)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:180)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:654)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+	at net.swordie.ms.util.XMLApi.getRoot(XMLApi.java:83)
+	at net.swordie.ms.loaders.Etc.SetItemInfo.SetItemInfoData.loadSetItemInfoFromWz(SetItemInfoData.java:129)
+	at net.swordie.ms.loaders.Etc.SetItemInfo.SetItemInfoData.generateDatFiles(SetItemInfoData.java:247)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.checkAndCreateDat(Server.java:789)
+	at net.swordie.ms.Server.init(Server.java:535)
+	at net.swordie.ms.Server.main(Server.java:517)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.w3c.dom.Node.getFirstChild()" because "node" is null
+	at net.swordie.ms.util.XMLApi.getAllChildren(XMLApi.java:39)
+	at net.swordie.ms.loaders.Etc.SetItemInfo.SetItemInfoData.loadSetItemInfoFromWz(SetItemInfoData.java:130)
+	at net.swordie.ms.loaders.Etc.SetItemInfo.SetItemInfoData.generateDatFiles(SetItemInfoData.java:247)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 4 more
+
+---------------------------------
+[28 10 2026 11:32:24] java.io.FileNotFoundException: D:\mxd-data\282\TMS282.5\source\data\wz265\Item.wz\ItemOption.img.xml (系统找不到指定的路径。)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:84)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:180)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:654)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:861)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+	at net.swordie.ms.util.XMLApi.getRoot(XMLApi.java:83)
+	at net.swordie.ms.loaders.ItemData.loadItemOptionsFromWZ(ItemData.java:1701)
+	at net.swordie.ms.loaders.ItemData.loadItemOptions(ItemData.java:1997)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.loadWzData(Server.java:815)
+	at net.swordie.ms.Server.loadAllGameData(Server.java:622)
+	at net.swordie.ms.Server.lambda$initWithFastStartup$11(Server.java:559)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+---------------------------------
+[28 10 2026 11:32:24] java.lang.reflect.InvocationTargetException: Failed to load D:\mxd-data\282\TMS282.5\source\data\dat265\itemOptions.dat via ItemData.loadItemOptions
+	at net.swordie.ms.Server.loadWzData(Server.java:818)
+	at net.swordie.ms.Server.loadAllGameData(Server.java:622)
+	at net.swordie.ms.Server.lambda$initWithFastStartup$11(Server.java:559)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.w3c.dom.Node.getFirstChild()" because "node" is null
+	at net.swordie.ms.util.XMLApi.getAllChildren(XMLApi.java:39)
+	at net.swordie.ms.loaders.ItemData.loadItemOptionsFromWZ(ItemData.java:1703)
+	at net.swordie.ms.loaders.ItemData.loadItemOptions(ItemData.java:1997)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.swordie.ms.Server.loadWzData(Server.java:815)
+	... 3 more
+
+---------------------------------
+[28 10 2026 11:38:52] java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+	at java.base/java.util.Arrays$ArrayList.<init>(Arrays.java:4238)
+	at java.base/java.util.Arrays.asList(Arrays.java:4223)
+	at net.swordie.ms.loaders.MobData.loadNormalMobsFromWzUncached(MobData.java:1247)
+	at net.swordie.ms.loaders.MobData.loadNormalMobsFromWz(MobData.java:1177)
+	at net.swordie.ms.Server.loadWzDataPostSteps(Server.java:828)
+	at net.swordie.ms.Server.loadWzData(Server.java:822)
+	at net.swordie.ms.Server.loadAllGameData(Server.java:622)
+	at net.swordie.ms.Server.lambda$initWithFastStartup$11(Server.java:559)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+---------------------------------
+[28 10 2026 11:50:37] java.nio.file.NoSuchFileException: D:\mxd-data\282\TMS282.5\source\data\resources\mob_drops.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at net.swordie.ms.loaders.DropData.load(DropData.java:49)
+	at net.swordie.ms.Server.loadJson(Server.java:798)
+	at net.swordie.ms.Server.loadAllGameData(Server.java:623)
+	at net.swordie.ms.Server.lambda$initWithFastStartup$11(Server.java:559)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+---------------------------------
